@@ -20,9 +20,15 @@ let arr2 = ['I', 'study', 'JavaScript', 'right', 'now'];
 arr2.splice(0, 3, 'Faputa', 'Is', 'Faputa', 'sosu');
 console.log(arr2);
 
-// Tasks
-// 1) camelize(str)
+const a = [1, 2, 3]
+const mapUsingReduce;
+const filterUsingReduce;
+a.map(x => x+1);
+a.mapUsingReduce(x => x+1);
 
+
+// map filter reduce
+// transducer
 camelize("background-color") == 'backgroundColor';
 camelize("list-style-image") == 'listStyleImage';
 camelize("-webkit-transition") == 'WebkitTransition';

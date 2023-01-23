@@ -27,3 +27,5 @@ calc.addMethod('*', (a, b) => a * b);
 
 console.log(calc.calculate('3 + 7')); // 10
 console.log(calc.calculate('3 * 5'));
+// transducer
+// reduce ->

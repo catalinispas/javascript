@@ -1,5 +1,5 @@
 var uniqueInOrder = function (iterable) {
-    return (typeof iterable == 'object' ? iterable : iterable.split('')).filter(
+        return (typeof iterable == 'object' ? iterable : iterable.split('')).filter(
         (item, index, arr) =>
             arr.indexOf(item) == index
                 ? item

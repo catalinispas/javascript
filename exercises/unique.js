@@ -1,8 +1,8 @@
 // TODO Check later if it's better than the one one javascript.info
 
-function unique(arr) {
+const unique = arr => {
     arr.map((item, index, arr) => {
-        if (arr.indexOf(item) == index) {
+        if (arr.indexOf(item) === index) {
             // console.log(`Item: ${item} has index: ${index}. Adding to list..`);
             return item;
         }
@@ -12,7 +12,7 @@ function unique(arr) {
         //     )}. Skipping..`
         // );
     });
-}
+};
 
 let strings = [
     'Hare',

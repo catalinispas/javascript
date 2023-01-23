@@ -1,10 +1,15 @@
-function makeFunc() {
-    const name = 'Mozilla';
-    function displayName() {
-        console.log(name);
-    }
-    return displayName;
+function sum(a) {
+  let currentSum = a;
+  function f(b) {
+    currentSum += b;
+    return f;
+  }
+
+  f.toString = function () {
+    return currentSum;
+  };
+
+  return currentSum;
 }
 
-const myFunc = makeFunc();
-myFunc();
+console.log(sum(1)(2));

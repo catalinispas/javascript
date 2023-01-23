@@ -18,3 +18,4 @@ let arr = ['the-stealth-warrior', 'The_Stealth_Warrior'];
 for (item of arr) {
     console.log(`${item} is now: ${toCamelCase(item)}`);
 }
+
